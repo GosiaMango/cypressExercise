@@ -1,7 +1,7 @@
 {
   "username": "e2ecypressuser",
   "email": "e2ecypressuser@whatever.com",
-  "password": "5nVsXZWuwnKmHQ@",
+  "password": "5nVsXZWuwnKmHQ",
   "firstName": "cyuserfirstname",
   "lastName": "cyuserlastname",
   "address": "Test street 404",
@@ -9,5 +9,9 @@
   "state": "Virginia",
   "city": "Cypresstown",
   "zipcode": "12345",
-  "mobileNumber": "987654321"
+  "mobileNumber": "987654321",
+  "cardNumber": "5342786512340987",
+  "cvc": "234",
+  "expiryMonth": "12",
+  "expiryYear": "2028"
 }

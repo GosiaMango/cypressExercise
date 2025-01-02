@@ -37,11 +37,13 @@ describe('Account registration', () => {
     // Validate that after account creation user is logged in
     cy.get(':nth-child(10) > a').should('contain', `Logged in as ${userDetails.username}`)
 
+
+  })
+
+  after(()=>{    
     // Delete account and validation
     // Normally would never delete the test data at the end of the test. I would use deleteAccount
     // API call in beforeEach to make sure test has a clean state every time it runs
-    // provided DELETE api endpoint didn't work so couldn't use it here
-    cy.get('a[href="/delete_account"]').click()
-    cy.getByDataQa('account-deleted').children().should('have.text', 'Account Deleted!') 
-  })
+    // However, provided DELETE api endpoint didn't work so couldn't use it here
+    cy.deleteAccount()})
 })
