@@ -1,0 +1,13 @@
+{
+  "username": "e2ecypressuser",
+  "email": "e2ecypressuser@whatever.com",
+  "password": "5nVsXZWuwnKmHQ@",
+  "firstName": "cyuserfirstname",
+  "lastName": "cyuserlastname",
+  "address": "Test street 404",
+  "country": "United States",
+  "state": "Virginia",
+  "city": "Cypresstown",
+  "zipcode": "12345",
+  "mobileNumber": "987654321"
+}
